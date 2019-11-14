@@ -31,6 +31,8 @@ public class Main {
         System.out.println("And finally what year were you born");
         year = keyboard.nextLine();
 
-
+        System.out.print("So you were born "+day);
+        System.out.print(" "+month);
+        System.out.print(" "+year);
     }
 }
