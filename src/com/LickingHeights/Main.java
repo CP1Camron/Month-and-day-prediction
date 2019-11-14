@@ -1,8 +1,15 @@
 package com.LickingHeights;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
+        Scanner keyboard;
+        keyboard = new Scanner(System.in);
+        String day;
+        String month;
+        String year;
 
         System.out.println("There's a nursery rhyme that goes like...");
 
@@ -14,6 +21,15 @@ public class Main {
         System.out.println("Saturday's child works hard for a living,");
         System.out.println("But the child born on the sabbath day,");
         System.out.println("Is fair and wise and good in every way.");
+
+        System.out.println("What is the day you were born?");
+        day = keyboard.nextLine();
+
+        System.out.println("What was the month you were born");
+        month = keyboard.nextLine();
+
+        System.out.println("And finally what year were you born");
+        
 
 
     }
