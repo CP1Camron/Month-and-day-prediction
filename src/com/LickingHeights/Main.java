@@ -29,7 +29,7 @@ public class Main {
         month = keyboard.nextLine();
 
         System.out.println("And finally what year were you born");
-        
+        year = keyboard.nextLine();
 
 
     }
